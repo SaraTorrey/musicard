@@ -1,24 +1,26 @@
 import React from 'react';
-import logo from './logo.svg';
+import Viola from './img/Viola.jpeg';
+
+import Instrument from './Instrument';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        <Instrument
+            id={1}
+            name="Bagpipe"
+            type="woodwind"
+            url="https://4.imimg.com/data4/HH/SD/MY-13098778/musical-rosewood-bagpipes-500x500.jpg"
+            age={350}
+        />
+        <Instrument
+            id={8}
+            name="Viola"
+            type="string"
+            url="https://www.thomann.de/pics/bdb/111059/12881517_800.jpg"
+            age={450}
+        />
     </div>
   );
 }
