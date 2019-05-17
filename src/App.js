@@ -21,6 +21,13 @@ function App() {
             url="https://www.thomann.de/pics/bdb/111059/12881517_800.jpg"
             age={450}
         />
+        <Instrument
+            id={8}
+            name="Viola"
+            type="string"
+            url="https://www.thomann.de/pics/bdb/111059/12881517_800.jpg"
+            age={450}
+        />
     </div>
   );
 }
