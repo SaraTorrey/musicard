@@ -1,6 +1,17 @@
+.Musidex {
+    text-align: center;
+}
+
 .Musidex-cards {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
 }
 
+.Musidex-winner {
+    color: limegreen;
+}
+
+.Musidex-loser {
+    color: orangered;
+}

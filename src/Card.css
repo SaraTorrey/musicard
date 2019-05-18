@@ -17,6 +17,21 @@ img {
     font-size: 100%;
 }
 
+.Card-title {
+    margin-bottom: 1rem;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
 .Card-data {
     font-size: 90%;
+}
+
+img {
+    transition:
+}
+
+img:hover {
+   transform: scale(1.10);
+   opacity: 0.7;
 }

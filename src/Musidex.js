@@ -17,11 +17,16 @@ class Musidex extends Component {
     };
 
     render() {
+        let title;
+        if(this.props.isWinner) {
+            title = <h1 className="Musidex-winner">Winning Hand</h1>;
+        } else {
+            title = <h1 className="Musidex-loser">Losing Hand</h1>;
+        }
         return (
         <div className = "Musidex">
-            <h1>Musidex!</h1>
-            <p>Total Age: {this.props.age}</p>
-            <p>{this.props.isWinner ? 'Winner! 🎉' : 'Loser! 🥺'}</p>
+            {title}
+            <h3>Total Age: {this.props.age}</h3>
             <div className="Musidex-cards">
                 {this.props.instrument.map((i) => (
                 <Card id={i.id} name={i.name} type={i.type} age={i.age} url={i.url} />
