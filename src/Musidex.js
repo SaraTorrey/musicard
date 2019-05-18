@@ -20,7 +20,8 @@ class Musidex extends Component {
         return (
         <div className = "Musidex">
             <h1>Musidex!</h1>
-            <p>total Age: {this.props.age}</p>
+            <p>Total Age: {this.props.age}</p>
+            <p>{this.props.isWinner ? 'Winner! 🎉' : 'Loser! 🥺'}</p>
             <div className="Musidex-cards">
                 {this.props.instrument.map((i) => (
                 <Card id={i.id} name={i.name} type={i.type} age={i.age} url={i.url} />

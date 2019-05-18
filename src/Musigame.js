@@ -29,8 +29,8 @@ render() {
 
         return (
             <div>
-                <Musidex instrument = {hand1} age={age1} />
-                <Musidex instrument = {hand2} age={age2} />
+                <Musidex instrument = {hand1} age={age1} isWinner={ age1 > age2 }/>
+                <Musidex instrument = {hand2} age={age2} isWinner={ age2 > age1}/>
             </div>
         );
     }
