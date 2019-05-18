@@ -1,4 +1,22 @@
 .Instrument {
-    border: 2px solid mediumaquamarine;
-    margin: 50px;
+    width: 150px;
+    padding: 10px;
+    margin: 1rem;
+    box-shadow: 7px 10px 12px -5px rgba(0,0,0, 0.56);
+    text-align: center;
+    background-color: white;
+    border-radius: 3px;
+}
+
+img {
+    max-width: 150px;
+    max-height: 100px;
+}
+
+.Card-title {
+    font-size: 100%;
+}
+
+.Card-data {
+    font-size: 90%;
 }

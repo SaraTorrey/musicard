@@ -1,5 +1,5 @@
 import React from 'react';
-import Musidex from './Musidex';
+import Musigame from './Musigame';
 
 import Card from './Card';
 import './App.css';
@@ -7,7 +7,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-        <Musidex/>
+        <Musigame/>
     </div>
   );
 }
